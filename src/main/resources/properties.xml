@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+    <!--JMS PROPERTIES-->
+
+    <!--local-->
+    <entry key="server.jms.failover">failover:(tcp://172.17.0.1:61616,tcp://172.17.0.2:61616,tcp://172.17.0.3:61616,tcp://172.17.0.4:61616)</entry>
+    <entry key="jms.maxPoolSize">100</entry>
+
+</properties>
